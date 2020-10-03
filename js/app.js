@@ -21,7 +21,7 @@ Promise.all([
     const breedList = data[0].message;
     const randomImage = data[1].message;
 
-    generateImage(breedList);
+    generateOptions(breedList);
     generateImage(randomImage);
 })
 
